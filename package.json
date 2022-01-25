@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Maden51/rjx-back#readme",
   "dependencies": {
-    "faker": "^6.6.6",
+    "faker": "^5.5.3",
     "forever": "^4.0.2",
     "koa": "^2.13.4",
     "koa-body": "^4.2.0",
