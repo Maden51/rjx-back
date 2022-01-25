@@ -1,0 +1,31 @@
+{
+  "name": "rjx-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever -a index.js",
+    "watch": "forever -a -w index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maden51/rjx-back.git"
+  },
+  "author": "maden51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maden51/rjx-back/issues"
+  },
+  "homepage": "https://github.com/Maden51/rjx-back#readme",
+  "dependencies": {
+    "faker": "^6.6.6",
+    "forever": "^4.0.2",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2"
+  }
+}
