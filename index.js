@@ -99,6 +99,8 @@ router
       if (emails.messages.length < 10) {
         emails.messages.push(newMail());
         ctx.response.body = emails;
+      } else {
+        return emails;
       }
     });
 
