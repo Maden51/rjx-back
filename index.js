@@ -68,14 +68,14 @@ const emails = {
     "timestamp": 1553400000,
     "messages": [
       {
-        "id": "<uuid>",
+        "id": `<${uuid.v4()}>`,
         "from": "anya@ivanova",
         "subject": "Hello from Anya",
         "body": "Long message body here" ,
         "received": 1553108200
       },
       {
-        "id": "<uuid>",
+        "id": `<${uuid.v4()}>`,
         "from": "alex@petrov",
         "subject": "Hello from Alex Petrov!",
         "body": "Long message body here",
