@@ -96,12 +96,8 @@ function newMail() {
 
 router
     .get('/api/messages/unread', async (ctx, next) => {
-      if (emails.messages.length < 10) {
         emails.messages.push(newMail());
         ctx.response.body = emails;
-      } else {
-        return emails;
-      }
     });
 
 app.use(router.routes()).use(router.allowedMethods());
