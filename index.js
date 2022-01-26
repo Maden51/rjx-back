@@ -72,14 +72,14 @@ const emails = {
         "from": "anya@ivanova",
         "subject": "Hello from Anya",
         "body": "Long message body here" ,
-        "received": 1553108200
+        "received": new Date(),
       },
       {
         "id": `<${uuid.v4()}>`,
         "from": "alex@petrov",
         "subject": "Hello from Alex Petrov!",
         "body": "Long message body here",
-        "received": 1553107200
+        "received": new Date(),
       },
     ]
 }
@@ -90,7 +90,7 @@ function newMail() {
         from: faker.internet.email(),
         subject: `Hello from ${faker.name.findName()}`,
         body: faker.lorem.paragraph(),
-        received: Date.now(),
+        received: new Date(),
     }
 }
 
